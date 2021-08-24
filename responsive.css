@@ -359,7 +359,7 @@
 }
 @media only screen and (max-width:690px) {
   header {
-    height: 15%;
+    height: 13%;
   }
   nav ul li a {
     font-size: 10px;
@@ -383,7 +383,7 @@
 }
 @media only screen and (max-width:590px) {
   header {
-    height: 15%;
+    height: 16%;
   }
 
   nav ul li a {
@@ -406,7 +406,7 @@
     display: none;
   }
   header{
-    height: 10%;
+    height: 12%;
   }
   .display {
     display: flex;
@@ -425,20 +425,20 @@
     line-height: 5%;
     }
     span img {
-      padding: 21px 10px;
+      padding: 26px 10px;
     }
      .middle-section h2 {
        padding-top: 43%;
        font-size: 29px;
      }
 }
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:390px) {
   .ul {
     display: none;
   }
 
   header {
-    height: 10%;
+    height: 12%;
   }
 
   .display {
@@ -451,7 +451,7 @@
   }
 
   .logo img {
-    width: 29%;
+    width: 25%;
   }
 
   .logo {
@@ -460,7 +460,7 @@
     margin-right: -60%;
   }
    span img {
-     padding: 20px 10px;
+     padding: 26px 15px;
 
    }
    .middle-section h2 {
@@ -468,13 +468,13 @@
      font-size: 27px;
    }
 }
-@media only screen and (max-width:320px) {
+ @media only screen and (max-width:360px) { 
   .ul {
     display: none;
   }
 
   header {
-    height: 10%;
+    height: 12%;
   }
 
   .display {
@@ -487,16 +487,17 @@
   }
 
   .logo img {
-    width: 30%;
+    width: 28%;
+    line-height: 5%;
   }
    span img {
-     padding: 16px 10px;
+     padding: 23px 15px;
 
    }
 
   .logo {
     float: right;
-    padding: -35px 0px;
+
     margin-right: -60%;
   }
 }
