@@ -27,11 +27,11 @@
             </a>
         </ul>
     </div>
+    <img src="image/white gold.png" class="newlogo">
     </div>
     <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="image/Sidenavbar-removebg-preview (1).png"></span>
         <div class="Navigation">
         <nav class="nav">
-            <div class="nav" id="nav">
             <div class="ul">
             <ul>
                 <li><a class="active" href="#">Home</a></li>
@@ -79,13 +79,10 @@
             </ul>
             </div>
             <div class="logo">
-
                 <a href="MR. MUSTACHE ROBOT.html"><img src="image/white gold.png"></a>
             </div>
             </div>
         </nav>
-        </div>
-        </div>
     </header>
     <section>
         <div class="middle-section">
@@ -107,35 +104,12 @@
     <footer></footer>
 <script>
 function openNav() {
-  document.getElementById("mySidenav").style.width = "350px";
+  document.getElementById("mySidenav").style.width = "320px";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-<script>
-        const nav = document.getElementById('nav');
-
-        window.addEventListener('scroll', () =>{
-            if(window.scrollY >=100){
-                nav.classList.add('nav-black')
-            }else{
-                nav.classList.remove('nav-black')
-            }
-        })
-    </script>
-    <script>
-        const nav = document.getElementById('nav');
-
-        window.addEventListener('scroll', () =>{
-            if(window.scrollY >=100){
-                nav.classList.add('nav-blue')
-            }else{
-                nav.classList.remove('nav-blue')
-            }
-        })
-    </script>
-   
 </body>
 </html>

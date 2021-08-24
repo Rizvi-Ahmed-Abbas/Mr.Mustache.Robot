@@ -6,14 +6,20 @@
 }
 @media only screen and (max-width:1500px) {
   header {
-    height: 20%;
+    height: 22%;
   }
 
   nav ul li a {
     font-size: 17px;
-    line-height: 100px;
+    line-height: 129px;
+  }
+  nav ul ul {
+    top: 60px;
   }
 
+  nav ul li:hover>ul {
+    top: 100px;
+  }
   .logo img {
     width: 49%;
   }
@@ -40,7 +46,7 @@
   }
 @media only screen and (max-width:1200px){
   header {
-    height: 21%;
+    height: 22%;
   }
   nav ul li a {
     font-size: 14px;
@@ -109,7 +115,7 @@
 }
 @media only screen and (max-width:1050px) {
   header {
-    height: 22%;
+    height: 23%;
   }
 
   nav ul li a {
@@ -392,13 +398,11 @@
   }
 
   .logo img {
-    width: 26%;
+    display: none;
   }
 
   .logo {
-    float: right;
-    padding: -10px 0px;
-    margin-right: -27%;
+    display: none;
   }
 }
 @media only screen and (max-width:430px) {
@@ -413,23 +417,23 @@
   }
   span {
     display: flex;
-    margin-right: 190px;
+   margin-left: 170px;
   }
   .logo img {
-    width: 35%;
+    display: none;
   }
   .logo{
-    float: right;
-    padding: -30px 0px;
-    margin-right: -70%;
-    line-height: 5%;
-    }
+    display: none;
+  }
     span img {
       padding: 26px 10px;
     }
      .middle-section h2 {
        padding-top: 43%;
        font-size: 29px;
+     }
+     .newlogo{
+      display: flex;
      }
 }
 @media only screen and (max-width:390px) {
@@ -451,22 +455,29 @@
   }
 
   .logo img {
-    width: 25%;
+    display: none;
   }
 
   .logo {
-    float: right;
-    padding: -30px 0px;
-    margin-right: -60%;
+   display: none;
   }
    span img {
      padding: 26px 15px;
-
+   }
+   span {
+    display: flex;
+    margin-left: 170px;
    }
    .middle-section h2 {
      padding-top: 48%;
      font-size: 27px;
    }
+   nav {
+     padding: 3px 10px;
+}
+.newlogo{
+  display: flex;
+}
 }
  @media only screen and (max-width:360px) { 
   .ul {
@@ -480,10 +491,9 @@
   .display {
     display: flex;
   }
-
   span {
     display: flex;
-    margin-right: 140px;
+    margin-left: 170px;
   }
 
   .logo img {
@@ -492,12 +502,13 @@
   }
    span img {
      padding: 23px 15px;
-
+     float: left;
    }
-
   .logo {
-    float: right;
-
+    display: none;
     margin-right: -60%;
+  }
+  .newlogo{
+    display: flex;
   }
 }
