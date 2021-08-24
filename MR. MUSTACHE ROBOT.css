@@ -81,7 +81,7 @@ nav ul li a.active:hover{
 }
 nav ul ul{
     position:absolute;
-    top: 65px;
+    top: 75px;
     display:block;
     opacity: 0;
     visibility: hidden;
@@ -90,7 +90,7 @@ nav ul ul{
     border-radius: 8px;
 }
 nav ul li:hover>ul {
-    top: 76px;
+    top: 2px;
     opacity: 10;
     visibility: visible;
     transition: .4s linear;

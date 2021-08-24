@@ -432,7 +432,7 @@
        padding-top: 43%;
        font-size: 29px;
      }
-     .newlogo{
+     .new-logo{
       display: flex;
      }
 }
@@ -475,7 +475,7 @@
    nav {
      padding: 3px 10px;
 }
-.newlogo{
+.new-logo{
   display: flex;
 }
 }
@@ -508,7 +508,55 @@
     display: none;
     margin-right: -60%;
   }
-  .newlogo{
+  .new-logo{
+    display: flex;
+  }
+}
+@media only screen and (max-width:320px) {
+  .ul {
+    display: none;
+  }
+
+  header {
+    height: 12%;
+  }
+
+  .display {
+    display: flex;
+  }
+
+  span {
+    display: flex;
+    margin-right: 170px;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  span img {
+    padding: 20px 15px;
+  }
+
+  span {
+    display: flex;
+    margin-left: 160px;
+  }
+
+  .middle-section h2 {
+    padding-top: 48%;
+    font-size: 27px;
+  }
+
+  nav {
+    padding: 3px 10px;
+  }
+
+  .new-logo {
     display: flex;
   }
 }
