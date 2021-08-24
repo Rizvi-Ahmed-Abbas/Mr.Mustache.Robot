@@ -31,6 +31,7 @@
     <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="image/Sidenavbar-removebg-preview (1).png"></span>
         <div class="Navigation">
         <nav class="nav">
+            <div class="nav" id="nav">
             <div class="ul">
             <ul>
                 <li><a class="active" href="#">Home</a></li>
@@ -43,8 +44,7 @@
                         <li><a href="#" >C Language</a></li><br>
                         <li><a href="#" >C++ Language</a></li><br>
                         <li><a href="#" >Java Language</a></li><br>
-                        <li><a href="#" >Python Language</a></li><br>
-                        
+                        <li><a href="#" >Python Language</a></li>
                        
                         </div>
                     </ul>
@@ -56,9 +56,9 @@
                     <ul>
                         <div class="button">
                         <li><a href="#" >Projects</a></li><br>
-                        <li><a href="#" >HTML</a></li>
+                        <li><a href="#" >HTML</a></li><br>
                         <li><a href="#" >CSS</a></li><br>
-                        <li><a href="#" >Java Script</a></li>
+                        <li><a href="#" >Java Script</a></li><br>
                         </div>
                     </ul>
                 </li>
@@ -82,7 +82,9 @@
 
                 <a href="MR. MUSTACHE ROBOT.html"><img src="image/white gold.png"></a>
             </div>
+            </div>
         </nav>
+        </div>
         </div>
     </header>
     <section>
@@ -112,6 +114,28 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+<script>
+        const nav = document.getElementById('nav');
+
+        window.addEventListener('scroll', () =>{
+            if(window.scrollY >=100){
+                nav.classList.add('nav-black')
+            }else{
+                nav.classList.remove('nav-black')
+            }
+        })
+    </script>
+    <script>
+        const nav = document.getElementById('nav');
+
+        window.addEventListener('scroll', () =>{
+            if(window.scrollY >=100){
+                nav.classList.add('nav-blue')
+            }else{
+                nav.classList.remove('nav-blue')
+            }
+        })
+    </script>
    
 </body>
 </html>
