@@ -6,15 +6,15 @@
 }
 @media only screen and (max-width:1500px) {
   header {
-    height: 22%;
+    height: 20%;
   }
 
   nav ul li a {
-    font-size: 17px;
-    line-height: 129px;
+    font-size: 16px;
+    line-height: 110px;
   }
   nav ul ul {
-    top: 60px;
+    top: 90px;
   }
 
   nav ul li:hover>ul {
@@ -29,10 +29,13 @@
     font-size: 250%;
 
   }
+   .middle-section{
+      height: 600px;
+   }
 
   .content-area {
-    top: 450px;
-    height: 1000px;
+    top: 500px;
+    height: 1100px;
   }
 
   .content-area h2 {
@@ -46,11 +49,11 @@
   }
 @media only screen and (max-width:1200px){
   header {
-    height: 22%;
+    height: 20%;
   }
   nav ul li a {
     font-size: 14px;
-    line-height: 100px;
+    line-height: 90px;
   }
   .logo img {
     width: 44%;
@@ -81,11 +84,12 @@
   }
 
   nav ul li a {
-    font-size: 14px;
+    font-size: 10px;
+    line-height: 80px;
   }
 
   .logo img {
-    width: 44%;
+    width: 42%;
   }
   nav {
     padding: 5px 40px;
@@ -115,7 +119,7 @@
 }
 @media only screen and (max-width:1050px) {
   header {
-    height: 23%;
+    height: 21%;
   }
 
   nav ul li a {
@@ -128,6 +132,13 @@
 
   nav {
     padding: 5px 40px;
+  }
+  nav ul ul {
+    top: 90px;
+  }
+
+  nav ul li:hover>ul {
+    top: 70px;
   }
 
   .middle-section h2 {
@@ -158,16 +169,27 @@
   }
 
   .logo img {
-    width: 41%;
+    width: 35%;
+  }
+  .logo{
+    margin-right: -80px;
   }
 
   nav {
     padding: 0px 57px;
   }
-
+  nav ul ul{
+    width: 25%;
+  }
+  nav ul ul li a {
+    font-size: 11px;
+  }
+  nav ul ul li{
+    margin-left: -8%;
+  }
   .middle-section h2 {
     padding-top: 20%;
-    font-size: 250%;
+    font-size: 220%;
 
   }
 
@@ -178,7 +200,7 @@
 
   .content-area h2 {
     padding-top: 27px;
-    font-size: 25px;
+    font-size: 21px;
   }
 
   .content-area p {
@@ -188,7 +210,7 @@
 }
 @media only screen and (max-width:950px) {
   header {
-    height: 24%;
+    height: 21%;
   }
 
   nav ul li a {
@@ -196,7 +218,7 @@
   }
 
   .logo img {
-    width: 38%;
+    width: 37%;
   }
 
   nav {
@@ -226,15 +248,16 @@
 }
 @media only screen and (max-width:880px) {
   header {
-    height: 25%;
+    height: 20%;
   }
 
   nav ul li a {
-    font-size: 10px;
+    font-size: 9px;
+    line-height: 70px;
   }
 
   .logo img {
-    width: 38%;
+    width: 29%;
   }
 
   nav {
@@ -243,7 +266,7 @@
 
   .middle-section h2 {
     padding-top: 20%;
-    font-size: 200%;
+    font-size: 160%;
 
   }
 
@@ -254,7 +277,7 @@
 
   .content-area h2 {
     padding-top: 27px;
-    font-size: 21px;
+    font-size: 20px;
   }
 
   .content-area p {
@@ -404,6 +427,17 @@
   .logo {
     display: none;
   }
+   .you-tube {
+     display: none;
+   }
+    .content-area h2 {
+
+      padding-left: 0%;
+    }
+    .fa-caret-down {
+      float: right;
+      padding-right: 10px;
+    }
 }
 @media only screen and (max-width:430px) {
   .ul{
@@ -435,7 +469,19 @@
      .new-logo{
       display: flex;
      }
+      .you-tube {
+        display: none;
+      }
+       .content-area h2 {
+
+         padding-left: 0%;
+       }
+       .fa-caret-down {
+         float: right;
+         padding-right: 10px;
+       }
 }
+
 @media only screen and (max-width:390px) {
   .ul {
     display: none;
@@ -478,6 +524,17 @@
 .new-logo{
   display: flex;
 }
+ .you-tube {
+   display: none;
+ }
+  .content-area h2 {
+
+    padding-left: 0%;
+  }
+  .fa-caret-down {
+    float: right;
+    padding-right: 10px;
+  }
 }
  @media only screen and (max-width:360px) { 
   .ul {
@@ -511,6 +568,17 @@
   .new-logo{
     display: flex;
   }
+   .you-tube {
+     display: none;
+   }
+    .content-area h2 {
+
+      padding-left: 0%;
+    }
+    .fa-caret-down {
+      float: right;
+      padding-right: 10px;
+    }
 }
 @media only screen and (max-width:320px) {
   .ul {
@@ -559,4 +627,16 @@
   .new-logo {
     display: flex;
   }
+  .you-tube{
+    display: none;
+  }
+  .content-area h2 {
+   
+    padding-left: 0%;
+  }
+  .fa-caret-down {
+    float: right;
+    padding-right: 10px;
+  }
+
 }

@@ -17,15 +17,34 @@
     <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <a href="#">Web development
-                        <i class="fas fa-caret-down"></i>
-            <a href="#">Web development
-                        <i class="fas fa-caret-down"></i>
-            <a href="#">Game development
-                        <i class="fas fa-caret-down"></i>
+            <a class="a" href="#">Home</a>
+            <button class="dropdown-btn">Program development
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">Program development
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+             <button class="dropdown-btn">Program development
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
             </a>
         </ul>
+        </div>
     </div>
     <img src="image/white gold.png" class="new-logo">
     </div>
@@ -34,7 +53,7 @@
         <nav class="nav">
             <div class="ul">
             <ul>
-                <li><a class="active" href="#">Home</a></li>
+                <li><a class="active" href="Index.html">Home</a></li>
                 <li>
                     <a href="#">Program development 
                       <i class="fas fa-caret-down"></i></a>
@@ -79,7 +98,7 @@
             </ul>
             </div>
             <div class="logo">
-                <a href="MR. MUSTACHE ROBOT.html"><img src="image/white gold.png"></a>
+                <a href="#"><img src="image/white gold.png"></a>
             </div>
             </div>
         </nav>
@@ -90,7 +109,9 @@
         </div>
         <div class="content-area">
             <div class="wrapper">
-                <h2>Scroll Down</h2>
+                <h2>Scroll Down
+                    <a href="https://www.youtube.com/channel/UCat2zLmBBmJm-tKcz_mpPZQ"><img src="image/giphy.gif"/ class="you-tube"></a>
+                </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, esse est iste magni reprehenderit
                     saepe sint! Assumenda consectetur fugit sit tempore. Architecto blanditiis deleniti, est fuga iusto
                     perspiciatis suscipit voluptatibus! Ad alias assumenda autem deleniti esse est excepturi hic itaque,
@@ -104,12 +125,30 @@
     <footer></footer>
 <script>
 function openNav() {
-  document.getElementById("mySidenav").style.width = "320px";
+  document.getElementById("mySidenav").style.width = "290px";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
 </body>
 </html>
