@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Mustache Robot</title>
+     <link rel="stylesheet" type="text/css" href="MR. MUSTACHE ROBOT.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="image/zz.png">
+</head>
+<body>
+    <header>
+        <div class="display">
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <a class="a" href="#">Home</a>
+            <button class="dropdown-btn">Program development
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">Program development
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+             <button class="dropdown-btn">Program development
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+            </a>
+        </ul>
+        </div>
+    </div>
+    <img src="image/white gold.png" class="new-logo">
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="image/Sidenavbar-removebg-preview (1).png"></span>
+        <div class="Navigation">
+        <nav class="nav">
+            <div class="ul">
+            <ul>
+                <li><a class="active" href="Index.html">Home</a></li>
+                <li>
+                    <a href="#">Program development 
+                      <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <div class="button">
+                        <li><a href="#" >Projects</a></li><br>
+                        <li><a href="#" >C Language</a></li><br>
+                        <li><a href="#" >C++ Language</a></li><br>
+                        <li><a href="#" >Java Language</a></li><br>
+                        <li><a href="#" >Python Language</a></li>
+                       
+                        </div>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Web development
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul>
+                        <div class="button">
+                        <li><a href="#" >Projects</a></li><br>
+                        <li><a href="#" >HTML</a></li><br>
+                        <li><a href="#" >CSS</a></li><br>
+                        <li><a href="#" >Java Script</a></li><br>
+                        </div>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Game development
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul>
+                        <div class="button">
+                        <li><a href="#" >Projects</a></li>
+                        <li><a href="#" >C Language</a></li><br>
+                        <li><a href="#" >C Language</a></li>
+                        <li><a href="#" >C Language</a></li><br>
+                        <li><a href="#" >C Language</a></li>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+            <div class="logo">
+                <a href="#"><img src="image/white gold.png"></a>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="middle-section">
+            <h2>MR.Mustache Robot</h2>
+        </div>
+        <div class="content-area">
+            <div class="wrapper">
+                <h2>Scroll Down
+                    <a href="https://www.youtube.com/channel/UCat2zLmBBmJm-tKcz_mpPZQ"><img src="image/giphy.gif"/ class="you-tube"></a>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, esse est iste magni reprehenderit
+                    saepe sint! Assumenda consectetur fugit sit tempore. Architecto blanditiis deleniti, est fuga iusto
+                    perspiciatis suscipit voluptatibus! Ad alias assumenda autem deleniti esse est excepturi hic itaque,
+                    magnam magni nam officia provident quae recusandae reiciendis rem sed. Adipisci animi aut autem
+                    deserunt dolore, ea eius error ex facilis inventore ipsum minus modi nihil nostrum nulla, obcaecati
+                    porro reprehenderit repudiandae sed sint sunt tempore vero. At dolores doloribus, dolorum ea eaque
+                    hic ipsa iusto libero minus natus neque nisi nobis nostrum odio optio pariatur perspiciatis
+                    praesentium rerum sapiente.</p>
+            </div>
+    </section>
+    <footer></footer>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "290px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+</body>
+</html>
