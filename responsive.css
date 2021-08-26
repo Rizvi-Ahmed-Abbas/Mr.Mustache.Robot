@@ -4,6 +4,53 @@
     list-style: none;
     text-decoration: none;
 }
+@media only screen and (max-width:1700px) {
+  header {
+    height: 21%;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    line-height: 130px;
+  }
+
+  nav ul ul {
+    top: 90px;
+  }
+
+  nav ul li:hover>ul {
+    top: 100px;
+  }
+
+  .logo img {
+    width: 56%;
+    margin-right: 18px;
+}
+
+  .middle-section h2 {
+    padding-top: 20%;
+    font-size: 250%;
+
+  }
+
+  .middle-section {
+    height: 700px;
+  }
+
+  .content-area {
+    top: 550px;
+    height: 1100px;
+  }
+
+  .content-area h2 {
+    padding-top: 60px;
+    font-size: 27px;
+  }
+
+  .content-area p {
+    padding: 8% 0px;
+
+  }
 @media only screen and (max-width:1500px) {
   header {
     height: 20%;
@@ -30,17 +77,17 @@
 
   }
    .middle-section{
-      height: 600px;
-   }
+      height: 500px;
+  }
 
   .content-area {
-    top: 500px;
+    top:450px;
     height: 1100px;
   }
 
   .content-area h2 {
     padding-top: 60px;
-    font-size: 30px;
+    font-size: 27px;
   }
 
   .content-area p {
@@ -49,29 +96,35 @@
   }
 @media only screen and (max-width:1200px){
   header {
-    height: 20%;
+    height: 21%;
   }
   nav ul li a {
     font-size: 14px;
-    line-height: 90px;
+    line-height: 100px;
+  }
+  nav ul ul {
+    top: 90px;
+  }
+
+  nav ul li:hover>ul {
+    top: 70px;
   }
   .logo img {
-    width: 44%;
+    width: 42%;
   }
   .middle-section h2 {
     padding-top: 20%;
     font-size: 250%;
 
   }
-
   .content-area {
-    top: 390px;
+    top: 410px;
     height: 1000px;
   }
 
   .content-area h2 {
     padding-top: 38px;
-    font-size: 29px;
+    font-size: 24px;
   }
 
   .content-area p {
@@ -104,7 +157,7 @@
   }
 
   .content-area {
-
+    top: 400px;
     height: 1000px;
   }
 
@@ -612,7 +665,7 @@
 
   span {
     display: flex;
-    margin-left: 160px;
+    margin-left: 165px;
   }
 
   .middle-section h2 {
