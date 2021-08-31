@@ -4,13 +4,119 @@
     list-style: none;
     text-decoration: none;
 }
-@media only screen and (max-width:1700px) {
+@media only screen and (max-width:2000px) {
   header {
     height: 21%;
   }
 
   nav ul li a {
-    font-size: 16px;
+    font-size: 24px;
+    line-height: 160px;
+  }
+
+  nav ul ul {
+    top: 90px;
+  }
+
+  nav ul li:hover>ul {
+    top: 100px;
+  }
+
+  .logo img {
+    width: 50%;
+    margin-right: 150px;
+  }
+
+  .middle-section h2 {
+    padding-top: 20%;
+    font-size: 310%;
+
+  }
+
+  .middle-section {
+    height: 700px;
+  }
+ .wrapper h2 {
+   font-size: 40px;
+ }
+
+  .content-area {
+    top: 550px;
+    height: 1100px;
+  }
+
+  .content-area h2 {
+    padding-top: 60px;
+    font-size: 27px;
+  }
+
+  .content-area p {
+    padding: 8% 0px;
+
+  }
+   .Text-work h1 {
+     font-size: 56px;
+     padding: 0px -5px;
+   }
+
+   .Text-work h1 {
+     color: var(--yellow);
+   }
+
+   .only-text {
+     padding: 10px 19px;
+     font-size: 46px;
+   }
+
+   .Text-work {
+     margin-left: 13%;
+   }
+
+   .For-my-name h4 {
+     font-size: 24px;
+   }
+
+   .For-my-name h3 {
+     font-size: 25px;
+   }
+
+   .Many-word {
+     padding: 0px 25px;
+   }
+
+   .Many-word h3 {
+     font-size: 22px;
+   }
+
+   .imp {
+     color: rgb(0, 68, 255);
+     border-radius: 2px;
+     font: bold;
+   }
+
+   .para-text h4 {
+     padding: 0px 25px;
+     margin-top: 50px;
+     font-size: 25px;
+     line-height: 110%;
+     color: #201f1f;
+   }
+
+   .para-2 h3 {
+     font-size: 23px;
+   }
+
+   .para-3 h3 {
+     font-size: 23px;
+   }
+}
+@media only screen and (max-width:1px) {
+  header {
+    height: 100%;
+  }
+
+  nav ul li a {
+    font-size: 19px;
     line-height: 130px;
   }
 
@@ -23,13 +129,13 @@
   }
 
   .logo img {
-    width: 56%;
-    margin-right: 18px;
-}
+    width: 50%;
+    margin-right: 60px;
+  }
 
   .middle-section h2 {
     padding-top: 20%;
-    font-size: 250%;
+    font-size: 310%;
 
   }
 
@@ -51,14 +157,176 @@
     padding: 8% 0px;
 
   }
-@media only screen and (max-width:1500px) {
+}
+@media only screen and (max-width:1700px) {
   header {
-    height: 20%;
+    height: 22%;
   }
 
   nav ul li a {
-    font-size: 16px;
-    line-height: 110px;
+    font-size: 20px;
+    line-height: 150px;
+  }
+
+  nav ul ul {
+    top: 90px;
+  }
+
+  nav ul li:hover>ul {
+    top: 100px;
+  }
+
+  .logo img {
+    width: 55%;
+    margin-right: 60px;
+  }
+
+  .middle-section h2 {
+    padding-top: 20%;
+    font-size: 310%;
+
+  }
+
+  .middle-section {
+    height: 700px;
+  }
+
+  .content-area {
+    top: 550px;
+    height: 1100px;
+  }
+
+  .content-area h2 {
+    padding-top: 60px;
+    font-size: 27px;
+  }
+  .wrapper h2{
+    font-size: 30px;
+  }
+  .only-img img {
+    width: 12%;
+  }
+
+  .content-area p {
+    padding: 8% 0px;
+  }
+   .Text-work h1 {
+     font-size: 56px;
+     padding: 0px -5px;
+   }
+
+   .Text-work h1 {
+     color: var(--yellow);
+   }
+
+   .only-text {
+     padding: 10px 19px;
+     font-size: 46px;
+   }
+   .Text-work {
+     margin-left: 13%;
+   }
+
+   .For-my-name h4 {
+     font-size: 24px;
+   }
+   .For-my-name h3{
+     font-size: 25px;
+   }
+
+   .Many-word {
+     padding: 0px 25px;
+   }
+   .Many-word h3{
+     font-size: 22px;
+   }
+
+   .imp {
+     color: rgb(0, 68, 255);
+     border-radius: 2px;
+     font: bold;
+   }
+
+   .para-text h4 {
+     padding: 0px 25px;
+     margin-top: 50px;
+     font-size: 25px;
+     line-height: 110%;
+     color: #201f1f;
+   }
+   .para-2 h3{
+    font-size: 23px;
+   }
+   .para-3 h3 {
+     font-size: 23px;
+   }
+}
+@media only screen and (max-width:1600px) {
+  header {
+    height: 21%;
+  }
+
+  nav ul li a {
+    font-size: 19px;
+    line-height: 130px;
+  }
+
+  nav ul ul {
+    top: 90px;
+  }
+
+  nav ul li:hover>ul {
+    top: 100px;
+  }
+
+  .logo img {
+    width: 50%;
+    margin-right: 60px;
+}
+
+  .middle-section h2 {
+    padding-top: 20%;
+    font-size: 310%;
+
+  }
+
+  .middle-section {
+    height: 700px;
+  }
+
+  .content-area {
+    top: 550px;
+    height: 1100px;
+  }
+
+  .content-area h2 {
+    padding-top: 60px;
+    font-size: 27px;
+  }
+  .Text-work {
+    margin-left: 15%;
+  }
+  .Text-work h1 {
+    font-size: 55px;
+    padding: 0px -5px;
+  }
+
+  .Text-work h1 {
+    color: var(--yellow);
+  }
+  .only-text {
+    padding: 10px 19px;
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width:1500px) {
+  header {
+    height: 24%;
+  }
+
+  nav ul li a {
+    font-size: 17px;
+    line-height: 140px;
   }
   nav ul ul {
     top: 90px;
@@ -68,7 +336,12 @@
     top: 100px;
   }
   .logo img {
-    width: 49%;
+    width: 44%;
+    
+  }
+  .logo{
+    margin-right: -7%;
+    line-height: px;
   }
 
   .middle-section h2 {
@@ -92,45 +365,78 @@
 
   .content-area p {
     padding: 8% 0px;
+  }
+   .contain h3 {
+     font-size: 30px;
+   }
+    .Text-work {
+      margin-left: 17%;
+    }
 
-  }
-@media only screen and (max-width:1200px){
-  header {
-    height: 21%;
-  }
-  nav ul li a {
-    font-size: 14px;
-    line-height: 100px;
-  }
-  nav ul ul {
-    top: 90px;
-  }
+    .Text-work h1 {
+      font-size: 53px;
+      padding: 0px -5px;
+    }
 
-  nav ul li:hover>ul {
-    top: 70px;
-  }
-  .logo img {
-    width: 42%;
-  }
-  .middle-section h2 {
-    padding-top: 20%;
-    font-size: 250%;
+    .Text-work h1 {
+      color: var(--yellow);
+    }
 
-  }
-  .content-area {
-    top: 410px;
-    height: 1000px;
-  }
+    .only-text {
+      padding: 11px 19px;
+      font-size: 42px;
+    }
+    .For-my-name {
+      padding: 40px 60px;
+      justify-content: space-between;
+    }
+    .For-my-name h3{
+      font-size: 18px;
+    }
 
-  .content-area h2 {
-    padding-top: 38px;
-    font-size: 24px;
-  }
+    .For-my-name h4 {
+      float: right;
+      margin-top: -1.9%;
+      font-size: 18px;
+    }
 
-  .content-area p {
-    padding: 6% 0px;
+    .border {
+      border-bottom: 1px solid #202125;
+      border-radius: 12px;
+    }
 
-}
+    .Many-word {
+      padding: 0px 25px;
+    }
+    .Many-word h3{
+      font-size: 19px;
+    }
+
+    .imp {
+      color: rgb(0, 68, 255);
+      border-radius: 2px;
+      font: bold;
+    }
+
+    .para-text h4 {
+      padding: 0px 25px;
+      margin-top: 50px;
+      font-size: 20px;
+      line-height: 110%;
+      color: #201f1f;
+    }
+    .para-2 h3{
+      font-size: 19px;
+    }
+    .para-3 h3{
+       font-size: 19px;
+    }
+    .bg-color {
+      background-color: #cacaca;
+      border-left: 6px solid #202125;
+      border-radius: 5px;
+      height: 70%;
+    }
 @media only screen and (max-width:1100px){
   header {
     height: 17%;
@@ -155,7 +461,6 @@
     font-size: 250%;
 
   }
-
   .content-area {
     top: 400px;
     height: 1000px;
@@ -172,15 +477,16 @@
 }
 @media only screen and (max-width:1050px) {
   header {
-    height: 21%;
+    height: 25%;
   }
 
   nav ul li a {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 105px;
   }
 
   .logo img {
-    width: 41%;
+    width: 40%;
   }
 
   nav {
@@ -214,18 +520,18 @@
 }
 @media only screen and (max-width:1050px) {
   header {
-    height: 20%;
+    height: 23%;
   }
 
   nav ul li a {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .logo img {
-    width: 35%;
+    width: 37.7%;
   }
   .logo{
-    margin-right: -80px;
+    margin-right: -100px;
   }
 
   nav {
@@ -259,19 +565,74 @@
   .content-area p {
     padding: 6% 0px;
   }
+.nav-in li:hover>ul {
+  opacity: 10;
+  visibility: visible;
+  transition: .4s linear;
+  border-top: 2px solid rgb(58, 55, 55);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 80%;
+}
+  .Text-work {
+    margin-left: 16%;
+  }
 
+  .Text-work h1 {
+    font-size: 40px;
+    padding: 0px -5px;
+  }
+
+  .Text-work h1 {
+    color: var(--yellow);
+  }
+
+  .only-text {
+    padding: 9px 17px;
+    font-size: 30px;
+  }
+  .only-img {
+    margin-left: 40%;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.8s;
+
+  }
+
+  .only-img img {
+    background-color: transparent;
+    border-bottom: 1px solid #202125;
+
+  }
+
+  .only-img img {
+    width: 14%;
+    transition: 0.8s;
+    border-radius: 15px;
+    padding: 5px 35px;
+  }
+
+  .only-img img:hover {
+    background-color: transparent;
+    transition: 0.8s;
+    border-radius: 40px;
+    padding: 5px 35px;
+  }
 }
 @media only screen and (max-width:950px) {
   header {
-    height: 21%;
+    height: 23%;
   }
 
   nav ul li a {
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 90px;
   }
 
   .logo img {
-    width: 37%;
+    width: 32%;
+  }
+  .logo{
+    margin-left: -20px;
   }
 
   nav {
@@ -301,18 +662,20 @@
 }
 @media only screen and (max-width:880px) {
   header {
-    height: 20%;
+    height: 22%;
   }
 
   nav ul li a {
-    font-size: 9px;
-    line-height: 70px;
+    font-size: 10px;
+    line-height: 85px;
   }
 
   .logo img {
-    width: 29%;
+    width: 30%;
   }
-
+ .logo{
+   margin-right: -140px;
+ }
   nav {
     padding: 1px 40px;
   }
@@ -336,19 +699,112 @@
   .content-area p {
     padding: 6% 0px;
   }
+   .Text-work {
+     margin-left: 18%;
+   }
 
+   .Text-work h1 {
+     font-size: 37px;
+     padding: 0px -5px;
+   }
+
+   .Text-work h1 {
+     color: var(--yellow);
+   }
+
+   .only-text {
+     padding: 9px 15px;
+     font-size: 27px;
+   }
+
+   .only-img {
+     margin-left: 39%;
+
+   }
+
+   .only-img img {
+     width: 14%;
+     transition: 0.8s;
+     border-radius: 15px;
+     padding: 5px 35px;
+   }
+
+   .only-img img:hover {
+     background-color: transparent;
+     transition: 0.8s;
+     border-radius: 40px;
+     padding: 5px 35px;
+   }
+   }
+    .For-my-name {
+      padding: 40px 60px;
+      justify-content: space-between;
+    }
+
+    .For-my-name h3 {
+      font-size: 14px;
+    }
+
+    .For-my-name h4 {
+      float: right;
+      margin-top: -1.9%;
+      font-size: 14px;
+    }
+
+    .border {
+      border-bottom: 1px solid #202125;
+      border-radius: 12px;
+    }
+
+    .Many-word {
+      padding: 0px 25px;
+    }
+
+    .Many-word h3 {
+      font-size: 15px;
+    }
+
+    .imp {
+      color: rgb(0, 68, 255);
+      border-radius: 2px;
+      font: bold;
+    }
+
+    .para-text h4 {
+      padding: 0px 25px;
+      margin-top: 50px;
+      font-size: 16px;
+      line-height: 110%;
+      color: #201f1f;
+    }
+
+    .para-2 h3 {
+      font-size: 14px;
+    }
+
+    .para-3 h3 {
+      font-size: 14px;
+    }
+
+    .bg-color {
+      background-color: #cacaca;
+      border-left: 6px solid #202125;
+      border-radius: 5px;
+      height: 70%;
+    }
 }
 @media only screen and (max-width:800px) {
   header {
-    height: 10%;
+    height: 22%;
   }
 
   nav ul li a {
-    font-size: 10px;
+    font-size: 9px;
+    line-height: 80px;
   }
 
   .logo img {
-    width: 39%;
+    width: 27%;
   }
 
   nav {
@@ -357,8 +813,26 @@
 
   .middle-section h2 {
     padding-top: 25%;
-    font-size: 200%;
+    font-size: 150%;
+  }
+  .content-area {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    background: white;
+    height: 50%;
+    border-radius: 18px;
 
+  }
+
+  .content-area h2 {
+    font-family: poppins;
+    letter-spacing: 2px;
+    padding-top:70px;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    padding-left: 16%;
   }
 
   .content-area {
@@ -373,6 +847,57 @@
 
   .content-area p {
     padding: 6% 0px;
+  }
+  nav ul ul li a {
+    line-height: 10px;
+    width: 100%;
+      font-size: 8px;
+  }
+
+  nav ul ul ul {
+    font-size: 7px;
+    border-top: none;
+  }
+  .wrapper h2{
+    font-size: 13px;
+  }
+  .Text-work {
+    margin-left: 18%;
+  }
+  .Text-work h1 {
+    font-size: 30px;
+  }
+  .only-text {
+    padding: 8px 19px;
+    font-size: 20px;
+  }
+
+  .only-img {
+    margin-left: 42%;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.8s;
+
+  }
+
+  .only-img img {
+    background-color: transparent;
+    border-bottom: 1px solid #202125;
+
+  }
+
+  .only-img img {
+    width: 10%;
+    transition: 0.8s;
+    border-radius: 15px;
+    padding: 5px 20px;
+  }
+
+  .only-img img:hover {
+    background-color: transparent;
+    transition: 0.8s;
+    border-radius: 40px;
+    padding: 5px 35px;
   }
 }
 @media only screen and (max-width:730px) {
@@ -415,18 +940,20 @@
 }
 @media only screen and (max-width:760px){
   header {
-    height: 13%;
+    height: 22%;
   }
 
   nav ul li a {
-    font-size: 13px;
+    font-size: 9px;
+     line-height: 70px;
   }
   nav {
     padding: 8px 40px;
+   
   }
 
   .logo img {
-    width: 40%;
+    width: 23%;
   }
   .logo {
     float: right;
@@ -438,7 +965,7 @@
     padding-top: 32%;
 
   }
-}
+  
 @media only screen and (max-width:690px) {
   header {
     height: 13%;
@@ -491,6 +1018,95 @@
       float: right;
       padding-right: 10px;
     }
+     .Text-work {
+       margin-left: 6%;
+     }
+
+     .Text-work h1 {
+       font-size: 25px;
+       padding: 0px -2px;
+     }
+
+     .Text-work h1 {
+       color: var(--yellow);
+     }
+
+     .only-text {
+       padding: 3px 10px;
+       font-size: 21px;
+     }
+
+     .only-img {
+       margin-left: 36%;
+       background-color: transparent;
+       border-radius: 20px;
+       transition: 0.8s;
+
+     }
+
+     .only-img img {
+       width: 17%;
+       transition: 0.8s;
+       border-radius: 15px;
+       padding: 5px 35px;
+     }
+
+     .wrapper h2 {
+       font-size: 18px;
+     }
+     }
+      .For-my-name h3 {
+        font-size: 13.7px;
+      }
+
+      .For-my-name h4 {
+        float: right;
+        font-size: 13px;
+        display: none;
+      }
+
+      .border {
+        border-bottom: 1px solid #202125;
+        border-radius: 12px;
+      }
+
+      .Many-word {
+        padding: 0px 14px;
+      }
+
+      .Many-word h3 {
+        font-size: 14px;
+      }
+
+      .imp {
+        color: rgb(0, 68, 255);
+        border-radius: 2px;
+        font: bold;
+      }
+
+      .para-text h4 {
+        padding: 0px 15px;
+        margin-top: 50px;
+        font-size: 14px;
+        line-height: 110%;
+        color: #201f1f;
+      }
+
+      .para-2 h3 {
+        font-size: 14px;
+      }
+
+      .para-3 h3 {
+        font-size: 14px;
+      }
+
+      .bg-color {
+        background-color: #cacaca;
+        border-left: 6px solid #202125;
+        border-radius: 5px;
+        height: 120%;
+      }
+
 }
 @media only screen and (max-width:430px) {
   .ul{
@@ -533,6 +1149,94 @@
          float: right;
          padding-right: 10px;
        }
+        .Text-work {
+          margin-left: 6%;
+        }
+
+        .Text-work h1 {
+          font-size: 25px;
+          padding: 0px -2px;
+        }
+
+        .Text-work h1 {
+          color: var(--yellow);
+        }
+
+        .only-text {
+          padding: 3px 10px;
+          font-size: 21px;
+        }
+
+        .only-img {
+          margin-left: 36%;
+          background-color: transparent;
+          border-radius: 20px;
+          transition: 0.8s;
+
+        }
+
+        .only-img img {
+          width: 17%;
+          transition: 0.8s;
+          border-radius: 15px;
+          padding: 5px 35px;
+        }
+
+        .wrapper h2 {
+          font-size: 18px;
+        }
+         .For-my-name h3 {
+           font-size: 13.7px;
+         }
+
+         .For-my-name h4 {
+           float: right;
+           font-size: 13px;
+           display: none;
+         }
+
+         .border {
+           border-bottom: 1px solid #202125;
+           border-radius: 12px;
+         }
+
+         .Many-word {
+           padding: 0px 14px;
+         }
+
+         .Many-word h3 {
+           font-size: 14px;
+         }
+
+         .imp {
+           color: rgb(0, 68, 255);
+           border-radius: 2px;
+           font: bold;
+         }
+
+         .para-text h4 {
+           padding: 0px 15px;
+           margin-top: 50px;
+           font-size: 14px;
+           line-height: 110%;
+           color: #201f1f;
+         }
+
+         .para-2 h3 {
+           font-size: 14px;
+         }
+
+         .para-3 h3 {
+           font-size: 14px;
+         }
+
+         .bg-color {
+           background-color: #cacaca;
+           border-left: 6px solid #202125;
+           border-radius: 5px;
+           height: 120%;
+         }
+
 }
 
 @media only screen and (max-width:390px) {
@@ -588,50 +1292,94 @@
     float: right;
     padding-right: 10px;
   }
-}
- @media only screen and (max-width:360px) { 
-  .ul {
-    display: none;
-  }
-
-  header {
-    height: 12%;
-  }
-
-  .display {
-    display: flex;
-  }
-  span {
-    display: flex;
-    margin-left: 170px;
-  }
-
-  .logo img {
-    width: 28%;
-    line-height: 5%;
-  }
-   span img {
-     padding: 23px 15px;
-     float: left;
+   .Text-work {
+     margin-left: 7%;
    }
-  .logo {
-    display: none;
-    margin-right: -60%;
-  }
-  .new-logo{
-    display: flex;
-  }
-   .you-tube {
-     display: none;
-   }
-    .content-area h2 {
 
-      padding-left: 0%;
+   .Text-work h1 {
+     font-size: 22px;
+     padding: 0px -9px;
+   }
+
+   .Text-work h1 {
+     color: var(--yellow);
+   }
+
+   .only-text {
+     padding: 3px 10px;
+     font-size: 19px;
+   }
+
+   .only-img {
+     margin-left: 32%;
+     background-color: transparent;
+     border-radius: 20px;
+     transition: 0.8s;
+
+   }
+
+   .only-img img {
+     width: 16%;
+     transition: 0.8s;
+     border-radius: 15px;
+     padding: 5px 35px;
+   }
+   .wrapper h2 {
+     font-size: 16px;
+   }
+    .For-my-name h3 {
+      font-size: 13.7px;
     }
-    .fa-caret-down {
+
+    .For-my-name h4 {
       float: right;
-      padding-right: 10px;
+      font-size: 13px;
+      display: none;
     }
+
+    .border {
+      border-bottom: 1px solid #202125;
+      border-radius: 12px;
+    }
+
+    .Many-word {
+      padding: 0px 14px;
+    }
+
+    .Many-word h3 {
+      font-size: 14px;
+    }
+
+    .imp {
+      color: rgb(0, 68, 255);
+      border-radius: 2px;
+      font: bold;
+    }
+
+    .para-text h4 {
+      padding: 0px 15px;
+      margin-top: 50px;
+      font-size: 14px;
+      line-height: 110%;
+      color: #201f1f;
+    }
+
+    .para-2 h3 {
+      font-size: 14px;
+    }
+
+    .para-3 h3 {
+      font-size: 14px;
+    }
+
+    .bg-color {
+      background-color: #cacaca;
+      border-left: 6px solid #202125;
+      border-radius: 5px;
+      height: 120%;
+    }
+
+
 }
 @media only screen and (max-width:320px) {
   .ul {
@@ -672,6 +1420,9 @@
     padding-top: 48%;
     font-size: 27px;
   }
+  .wrapper h2 {
+    font-size: 14px;
+  }
 
   nav {
     padding: 3px 10px;
@@ -691,5 +1442,93 @@
     float: right;
     padding-right: 10px;
   }
+  .Text-work {
+    margin-left: 5%;
+  }
 
+  .Text-work h1 {
+    font-size: 20px;
+    padding: 0px -9px;
+  }
+
+  .Text-work h1 {
+    color: var(--yellow);
+  }
+
+  .only-text {
+    padding: 5px 10px;
+    font-size: 17px;
+  }
+
+  .only-img {
+    margin-left: 32%;
+    background-color: transparent;
+    border-radius: 20px;
+    transition: 0.8s;
+
+  }
+  .only-img img {
+    width: 16%;
+    transition: 0.8s;
+    border-radius: 15px;
+    padding: 5px 35px;
+  }
+  .For-my-name {
+    padding: 40px 15px;
+    justify-content: space-between;
+  }
+
+  .For-my-name h3 {
+    font-size: 13.7px;
+  }
+
+  .For-my-name h4 {
+    float: right;
+    font-size: 13px;
+    display: none;
+  }
+
+  .border {
+    border-bottom: 1px solid #202125;
+    border-radius: 12px;
+  }
+
+  .Many-word {
+    padding: 0px 14px;
+  }
+
+  .Many-word h3 {
+    font-size: 14px;
+  }
+
+  .imp {
+    color: rgb(0, 68, 255);
+    border-radius: 2px;
+    font: bold;
+  }
+
+  .para-text h4 {
+    padding: 0px 15px;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 110%;
+    color: #201f1f;
+  }
+
+  .para-2 h3 {
+    font-size: 14px;
+  }
+
+  .para-3 h3 {
+    font-size: 14px;
+  }
+
+  .bg-color {
+    background-color: #cacaca;
+    border-left: 6px solid #202125;
+    border-radius: 5px;
+    height: 120%;
+  }
+
+  }
 }
